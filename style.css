@@ -17,6 +17,12 @@ body {
     background-position: center;
 }
 
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+}
+
 header {
     position: fixed;
     top: 0;

@@ -270,3 +270,76 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+
+/* Media queries para dispositivos móviles y tabletas */
+@media (max-width: 1024px) {
+    header {
+        padding: 15px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .navigation a,
+    .navigation .btnLogin-popup {
+        margin-left: 0;
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    .wrapper {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .wrapper .form-box {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .navigation a,
+    .navigation .btnLogin-popup {
+        font-size: 1em;
+        padding: 10px 5px;
+    }
+
+    .input-box {
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        font-size: 0.9em;
+        padding-left: 8px;
+        padding-right: 30px;
+    }
+
+    .btn {
+        height: 45px;
+        font-size: 0.9em;
+    }
+}
+
